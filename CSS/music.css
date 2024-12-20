@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+#image{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    top: 0;
+    z-index: 10;
+}
+nav hr{
+    border: none;
+    height: 2px;
+    background-color: hsl(40deg 10.21% 80.18%);
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+.nav-2{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: 38px;
+    background-color: whitesmoke;
+}
+.link{
+    margin-top: 1px;
+    text-align: center;
+    font-size: large;
+    gap: 20px;
+    width: 100%;
+    background-size: 1700px;
+    color:black;
+}
+.anchor{
+    margin: 5px;
+    text-decoration: solid;
+    color:black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+
+.anchor:hover {
+    color: #9f9292;
+    transform: scale(1.3);
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -153px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    transition: transform 0.3s;
+    margin-top: 61px;
+    background-color: black;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+
+.main-footer {
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.main-footer img {
+    width: 300px;
+    height: 100px;
+}
+
+.main-footer .site-links {
+    padding-left: 30px;
+}
+
+.main-footer .site-links {
+    color: white;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.main-footer .site-links ul {
+    list-style: none;
+}
+
+.main-footer .site-links ul li {
+    padding-top: 20px;
+}
+
+.main-footer .site-links ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
+
+.main-footer .site-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-head {
+    padding-top: 20px;
+    padding-right: 130px;
+
+}
+
+.footer-head p {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-head a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-head a:hover {
+    text-decoration: underline;
+}
+.mus{
+    display: flex;
+    /* width: 50%;   */
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 500px;
+}
+.mus iframe{
+    height: 600px;
+    /* margin-top: 50px; */
+    padding: 50px;
+    padding-top: 10px;
+    margin-left: 300px;
+    width: 800px;
+}
+#listen{
+    font-size: 40px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#member{
+    padding-top: 150px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.signup-container {
+    background: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 520px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4a90e2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #357ab7;
+}
+
+#error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
