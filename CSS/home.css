@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    top: 0;
+    z-index: 10;
+}
+
+nav hr {
+    border: none;
+    height: 2px;
+    background-color: hsl(40deg 10.21% 80.18%);
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+
+#name {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-2 {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: 38px;
+    background-color: whitesmoke;
+}
+
+.link {
+    margin-top: 1px;
+    text-align: center;
+    font-size: large;
+    gap: 20px;
+    width: 100%;
+    background-size: 1700px;
+    color: black;
+}
+
+.anchor {
+    margin: 5px;
+    text-decoration: solid;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+
+.main-image {
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.anchor:hover {
+    color: #9f9292;
+    transform: scale(1.3);
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -153px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    transition: transform 0.3s;
+    margin-top: 61px;
+    background-color: black;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.icon ion-icon {
+    color: white;
+    width: 30px;
+    height: 180px;
+    margin-top: -1000000000px;
+    transition: transform 0.3s;
+}
+
+.icon ion-icon:hover {
+    transform: scale(1.1);
+}
+
+#all {
+    display: flex;
+}
+
+.new {
+    width: 100%;
+    background-image: url(/images/loom.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.new img {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.new h1 {
+    padding-top: 60px;
+    color: black;
+}
+
+#cd {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#cd a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 5px solid rgb(76, 57, 57);
+    background-color: rgb(76, 57, 57);
+    border-radius: 5px;
+    width: 0px;
+    height: 0px;
+    transition: 0.2s ease;
+    font-size: 15px;
+}
+
+#cd a:hover {
+    background-color: rgb(178, 120, 120);
+    border: 5px solid rgb(178, 120, 120);
+}
+
+.about-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        /* Overlay */
+        url('images/aboutbg.jpg') center/cover no-repeat,
+        /* Blurred background */
+        url('images/1ST_IMAGE.jpg') center/cover no-repeat;
+    /* Main image */
+    background-blend-mode: overlay, normal, normal;
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #8c8c79;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #6d6859;
+}
+
+body {
+    margin: 0;
+    margin-top: 0px;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* footer */
+
+.main-footer {
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.main-footer img {
+    width: 300px;
+    height: 100px;
+}
+
+.main-footer .site-links {
+    padding-left: 30px;
+}
+
+.main-footer .site-links {
+    color: white;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.main-footer .site-links ul {
+    list-style: none;
+}
+
+.main-footer .site-links ul li {
+    padding-top: 20px;
+}
+
+.main-footer .site-links ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
+
+.main-footer .site-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-head {
+    padding-top: 20px;
+    padding-right: 130px;
+
+}
+
+.footer-head p {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-head a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-head a:hover {
+    text-decoration: underline;
+}
