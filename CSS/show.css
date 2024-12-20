@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    color: whitesmoke;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    top: 0;
+    z-index: 10;
+}
+
+nav hr {
+    border: none;
+    height: 2px;
+    background-color: hsl(40deg 10.21% 80.18%);
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+
+#name {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-2 {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: 38px;
+    background-color: whitesmoke;
+}
+
+.link {
+    margin-top: 1px;
+    text-align: center;
+    font-size: large;
+    gap: 20px;
+    width: 100%;
+    background-size: 1700px;
+    color: black;
+}
+
+.anchor {
+    margin: 5px;
+    text-decoration: solid;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+
+.anchor:hover {
+    color: #9f9292;
+    transform: scale(1.3);
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -153px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    transition: transform 0.3s;
+    margin-top: 61px;
+    background-color: black;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.main-image {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.main-container {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.tour-detail {
+    background-color: white;
+}
+
+.tour-detail:hover {
+    background-color: rgb(195, 194, 194);
+}
+
+.tour-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 20px 50px;
+    font-family: "Lato", serif;
+    transition: .2s ease;
+    height: 80px;
+    cursor: pointer;
+}
+
+.tour-date {
+    float: left;
+    width: 200px;
+}
+
+.tour-date h3,
+p {
+    color: black;
+
+}
+
+.tour-place {
+    float: left;
+    padding-left: 300px;
+    width: 110px;
+
+}
+
+.tour-tickets {
+    /* float: right; */
+    padding-left: 390px;
+    width: 350px;
+}
+
+.tour-tickets button {
+    background-color: white;
+    width: 115px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 2px;
+    transition: .1s ease;
+}
+
+.tour-tickets a {
+    text-decoration: none;
+}
+
+.tour-tickets a p {
+    color: black;
+    font-size: 0.8rem;
+}
+
+.tour-tickets button:hover {
+    background-color: black;
+}
+
+.tour-tickets a p:hover {
+    color: white;
+}
+
+/* footer */
+
+
+.main-footer {
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.main-footer img {
+    width: 300px;
+    height: 100px;
+}
+
+.main-footer .site-links {
+    padding-left: 30px;
+}
+
+.main-footer .site-links {
+    color: white;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.main-footer .site-links ul {
+    list-style: none;
+}
+
+.main-footer .site-links ul li {
+    padding-top: 20px;
+}
+
+.main-footer .site-links ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
+
+.main-footer .site-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-head {
+    padding-top: 20px;
+    padding-right: 130px;
+
+}
+
+.footer-head p {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-head a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-head a:hover {
+    text-decoration: underline;
+}
