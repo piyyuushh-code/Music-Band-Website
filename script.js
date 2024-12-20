@@ -23,5 +23,5 @@ signupForm.addEventListener('submit', function(event) {
         return;
     }
     errorMessage.textContent = '';
-    window.location.href = 'home.html';
+    window.location.href = 'index.html';
 });
